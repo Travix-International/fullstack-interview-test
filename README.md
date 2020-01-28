@@ -1,6 +1,6 @@
 **Travix - Problem to be solved**
 
-You need to build a flights aggregator application. User input parameters: origin, destination, departure date, return date, number of passengers. It should sarch for flights with those paramteres and show the list of flights to the user.
+You need to build a flight aggregator application. User input parameters: origin, destination, departure date, return date, number of passengers. It should search for flights with those parameters and show the list of flights to the user.
 
 **Recommended duration of test:**
 
@@ -14,18 +14,19 @@ Allocate no more than 3 hours to complete this exercise. An incomplete solution 
 * Responsive design
 * Linting
 * Unit tests
-* you can use https://github.com/facebook/create-react-app  to create a React App
+
+It's possible to use a Create React App https://github.com/facebook/create-react-app 
 
 **Backend:**
 
-BusyFlights is a flights search solution which aggregates flight results initially from 2 different suppliers (CrazyAir and ToughJet). A future iteration (not part of the test) may add more suppliers.
+BusyFlights is a flight search solution that aggregates flight results initially from 2 different suppliers (CrazyAir and ToughJet). A future iteration (not part of the test) may add more suppliers.
 
 **BE Requirements:**
 
-Use this GitHub repository as a base to implement the Busy Flights service that should produce an aggregated result from both CrazyAir and ToughJet. It is fine to change any of the supplied application code, if you choose to do so please add comments to indicate what has changed and why.
+Use this GitHub repository as a base to implement the Busy Flights service that should produce an aggregated result from both CrazyAir and ToughJet. It is fine to change any of the supplied application code. If you choose to do so, please add comments to indicate what has changed and why.
 The result should be a JSON response which contains a list of flights ordered by fare.
 
-The model attributes are following:
+The model attributes are the following:
 
 **Busy Flights API**
 
@@ -51,7 +52,7 @@ The model attributes are following:
 | departureDate | ISO_DATE_TIME format |
 | arrivalDate | ISO_DATE_TIME format |
 
-The service should connect to the both the suppliers using HTTP.
+The service should connect to both the suppliers using HTTP.
 
 **CrazyAir API**
 
