@@ -1,14 +1,31 @@
 **Travix - Problem to be solved**
 
-**Background:**
+You need to build a flights aggregator application. User input parameters: origin, destination, departure date, return date, number of passengers. It should sarch for flights with those paramteres and show the list of flights to the user.
+
+**Recommended duration of test:**
+
+Allocate no more than 3 hours to complete this exercise. An incomplete solution is acceptable but documenting any remaining tasks and next steps is expected.
+
+**FE Requirements:**
+
+* React 16+
+* Good state management
+* Modular CSS
+* Responsive design
+* Linting
+* Unit tests
+* you can use https://github.com/facebook/create-react-app  to create a React App
+
+**Backend:**
 
 BusyFlights is a flights search solution which aggregates flight results initially from 2 different suppliers (CrazyAir and ToughJet). A future iteration (not part of the test) may add more suppliers.
 
+**BE Requirements:**
 
-**What is required:**
+Use this GitHub repository as a base to implement the Busy Flights service that should produce an aggregated result from both CrazyAir and ToughJet. It is fine to change any of the supplied application code, if you choose to do so please add comments to indicate what has changed and why.
+The result should be a JSON response which contains a list of flights ordered by fare.
 
-Use this GitHub repository as a base to implement the Busy Flights service that should produce an aggregated result from both CrazyAir and ToughJet.
-The result should be a JSON response which contains a list of flights ordered by fare which has the following attributes:
+The model attributes are following:
 
 **Busy Flights API**
 
@@ -85,13 +102,6 @@ The service should connect to the both the suppliers using HTTP.
 | arrivalAirportName | 3 letter IATA code(eg. LHR, AMS) |
 | outboundDateTime | ISO_INSTANT format |
 | inboundDateTime | ISO_INSTANT format |
-
-**What you need to provide:**
-
-- A solution that meets the above requirements.
-- The implementation should be made as close to 'production ready' as possible within the time constraints.
-
-It is fine to change any of the supplied application code, if you choose to do so please add comments to indicate what has changed and why.
 
 **Note**
 
